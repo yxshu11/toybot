@@ -1,5 +1,5 @@
-ToyRobotSimulator::Application.routes.draw do
-    resources :robots, only: [:index, :new] do
+Rails.application.routes.draw do
+  resources :robots, only: [:index, :new] do
     collection do
       post 'command'
     end
