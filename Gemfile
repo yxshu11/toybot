@@ -10,6 +10,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'hashie'
 gem 'unicorn'
 gem 'bootstrap-sass', '3.2.0.0'
+gem 'sqlite3'
 
 group :doc do
   gem 'sdoc', require: false
